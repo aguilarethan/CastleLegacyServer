@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{30E9AFD7-4E69-4BEE-84BC-717420AB9729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{690647F8-B969-4564-8EB2-D0E74DDFC06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{82F38B49-9557-40D0-B32B-C14CD24FD142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30E9AFD7-4E69-4BEE-84BC-717420AB9729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E9AFD7-4E69-4BEE-84BC-717420AB9729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E9AFD7-4E69-4BEE-84BC-717420AB9729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E9AFD7-4E69-4BEE-84BC-717420AB9729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690647F8-B969-4564-8EB2-D0E74DDFC06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690647F8-B969-4564-8EB2-D0E74DDFC06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690647F8-B969-4564-8EB2-D0E74DDFC06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690647F8-B969-4564-8EB2-D0E74DDFC06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F38B49-9557-40D0-B32B-C14CD24FD142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F38B49-9557-40D0-B32B-C14CD24FD142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F38B49-9557-40D0-B32B-C14CD24FD142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F38B49-9557-40D0-B32B-C14CD24FD142}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70D9E58-66B8-4DCD-B78A-C0C25E5F6E48}
+	EndGlobalSection
+EndGlobal
