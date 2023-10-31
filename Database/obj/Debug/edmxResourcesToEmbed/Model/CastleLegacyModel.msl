@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CastleLegacyModelStoreContainer" CdmEntityContainer="CastleLegacyEntities">
+    <EntitySetMapping Name="Account">
+      <EntityTypeMapping TypeName="CastleLegacyModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="Id_Account" ColumnName="Id_Account" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AccountStatus" ColumnName="AccountStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountCards">
+      <EntityTypeMapping TypeName="CastleLegacyModel.AccountCards">
+        <MappingFragment StoreEntitySet="AccountCards">
+          <ScalarProperty Name="Id_AccountCards" ColumnName="Id_AccountCards" />
+          <ScalarProperty Name="Id_Account" ColumnName="Id_Account" />
+          <ScalarProperty Name="Id_Card" ColumnName="Id_Card" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountCastles">
+      <EntityTypeMapping TypeName="CastleLegacyModel.AccountCastles">
+        <MappingFragment StoreEntitySet="AccountCastles">
+          <ScalarProperty Name="Id_AccountCastles" ColumnName="Id_AccountCastles" />
+          <ScalarProperty Name="Id_Account" ColumnName="Id_Account" />
+          <ScalarProperty Name="Id_Castle" ColumnName="Id_Castle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountFriends">
+      <EntityTypeMapping TypeName="CastleLegacyModel.AccountFriends">
+        <MappingFragment StoreEntitySet="AccountFriends">
+          <ScalarProperty Name="Id_AccountFriends" ColumnName="Id_AccountFriends" />
+          <ScalarProperty Name="Id_Friend" ColumnName="Id_Friend" />
+          <ScalarProperty Name="Id_Account" ColumnName="Id_Account" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Card">
+      <EntityTypeMapping TypeName="CastleLegacyModel.Card">
+        <MappingFragment StoreEntitySet="Card">
+          <ScalarProperty Name="Id_Card" ColumnName="Id_Card" />
+          <ScalarProperty Name="Health" ColumnName="Health" />
+          <ScalarProperty Name="Attack" ColumnName="Attack" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Castle">
+      <EntityTypeMapping TypeName="CastleLegacyModel.Castle">
+        <MappingFragment StoreEntitySet="Castle">
+          <ScalarProperty Name="Id_Castle" ColumnName="Id_Castle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Friend">
+      <EntityTypeMapping TypeName="CastleLegacyModel.Friend">
+        <MappingFragment StoreEntitySet="Friend">
+          <ScalarProperty Name="Id_Friend" ColumnName="Id_Friend" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="FriendStatus" ColumnName="FriendStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profile">
+      <EntityTypeMapping TypeName="CastleLegacyModel.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="Id_Profile" ColumnName="Id_Profile" />
+          <ScalarProperty Name="Names" ColumnName="Names" />
+          <ScalarProperty Name="FirstLastName" ColumnName="FirstLastName" />
+          <ScalarProperty Name="SecondLastName" ColumnName="SecondLastName" />
+          <ScalarProperty Name="ProfileImage" ColumnName="ProfileImage" />
+          <ScalarProperty Name="Victories" ColumnName="Victories" />
+          <ScalarProperty Name="Losses" ColumnName="Losses" />
+          <ScalarProperty Name="Id_Account" ColumnName="Id_Account" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
