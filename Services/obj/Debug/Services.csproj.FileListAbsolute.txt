@@ -1,0 +1,15 @@
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\Services.dll.config
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\Services.dll
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\Services.pdb
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\Database.dll
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\EntityFramework.dll
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\Database.pdb
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\Database.dll.config
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\EntityFramework.xml
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\obj\Debug\Services.dll
+C:\Users\aguil\Documents\Server\CastleLegacyServer\Services\obj\Debug\Services.pdb
